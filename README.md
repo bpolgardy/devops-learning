@@ -4,6 +4,7 @@ My hands-on DevOps learning repository - exercises, projects, and notes from my 
 
 ## Repository Structure
 
+```
 devops-learning/
 ├── kubernetes/          # Kubernetes manifests & exercises
 │   ├── 01-basics/       # Pods, namespaces, labels
@@ -14,6 +15,8 @@ devops-learning/
 ├── bash-scripts/        # Automation & utility scripts
 ├── LEARNING_LOG.md      # Chronological log of completed exercises
 └── README.md
+```
+
 
 ## Tools & Technologies
 - **Containers:** Docker, Kubernetes
