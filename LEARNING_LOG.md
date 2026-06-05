@@ -15,6 +15,6 @@ For detailed notes on each topic, see the README in the relevant subfolder.
 
 | Date | Topic | Folder | Key Lesson |
 |------|-------|--------|------------|
-| 2026-06-05 | First K8s pod manifest | `kubernetes/01-basics/` | labels is a dict, ports are immutable |
+| 2026-06-05 | First K8s pod manifest | [`kubernetes/01-basics/`](./kubernetes/01-basics/01-nginx-pod) | labels is a dict, ports are immutable |
 
 ## Notes & Observations
