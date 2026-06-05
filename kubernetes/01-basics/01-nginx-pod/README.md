@@ -21,7 +21,7 @@
 |---|---------|---------------|-----|
 | 1 | Missing `name` field under `metadata` | `error: resource may not be empty` | Added `name: nginx-pod` under `metadata` |
 | 2 | Used `label:` instead of `labels:` | `unknown field 'metadata.label'` | Corrected key name to `labels:` |
-| 3 | Used array syntax for `labels` (`- app: nginx`) | `cannot unmarshal array into Go struct field...` | Chaged to dictionary syntax (`app: nginx`) |
+| 3 | Used array syntax for `labels` (`- app: nginx`) | `cannot unmarshal array into Go struct field...` | Changed to dictionary syntax (`app: nginx`) |
 | 4 | Missing `ports` section | Task checker failed | Added `ports.containerPort: 80` under `spec.containers` |
 | 5 | Tried to update running pod with port change | `pod updates may not change fields other than...` | Deleted pod and recreated it |
 
